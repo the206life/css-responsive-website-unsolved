@@ -10,6 +10,25 @@
   } */
 
   /* 👇👇👇 Add the styles that belong to the DESKTOP view only beneath 👇👇👇 */
+  .top-navigation :hover{
+    font-weight: bold;
+  }
+  .social-icons :hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+  .trigram :hover{
+    font-weight: bold;
+    color: black;
+  }
+  .teammate-social-icons :hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+
+  
 }
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
