@@ -27,10 +27,42 @@
     background-color: black;
     color: white;
   }
-
-  
+  .email :hover{
+    font-weight: bold;
+    color: white;
+  }
+  .phones :hover{
+    font-weight: bold;
+    color: white;
+  }
+  .portfolio-list{
+    display: flex;
+  }
 }
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
+@media (min-width: 768px) and (max-width: 1023px){
+  .top-navigation{
+    display: none;
+  }
+  .trigram{
+    display: block;
+  }
+
+  .section-info{
+    padding: 10px;
+  }
+  .portfolio-list{
+    flex-direction: column;
+  }
+  portfolio-item{
+    display: flex;
+    flex-direction: row;
+  }
+  .portfolio-img-wrapper{
+    display: flex;
+  }
+
+}
 
 /* 👇👇👇 Add the media rule and the styles that belong to the MOBILE view only beneath 👇👇👇 */
